@@ -86,20 +86,6 @@ body{
 
 
 
- /*#main{
-	display:  flex;
-	column and flex:1 to make every section fit into a column
-	flex-direction: column;
-	flex:  1;
-	align-items: center;
-	font-size: 25px;
-	margin-top: 80px;
-	margin-left: 225px;
-    adding transition to synch with sidebar
-    transition: all 0.5s ease;
-    width: calc(100% - 225px); /*to keep width fixed regardless of siderbar toggle
-}  */
-
 .panel {
 	display: flex;
 	flex-direction: column;
@@ -145,6 +131,10 @@ body{
 	top: 66%;
 	left: 34%;
 }
+
+
+/* multiple panel panels (2, 4) */
+
 .img1{
 	flex: 1;
 	text-align: right;
@@ -164,6 +154,9 @@ body{
 	height: 90%;
 	width:85%;
 }
+
+
+/* superimposing images on top of each other through js later */
 
 #pan3 {
 	position: relative;
@@ -213,6 +206,11 @@ body{
 	left: calc(70%);
 }
 
+
+
+/* panel5 */
+
+
 .img4{
 	flex: 1;
 	text-align: right;
@@ -232,24 +230,26 @@ body{
 	height: 90%;
 }
 
-#pan0{ /* IMPORTANT */
+
+
+#pan0{
 	margin-top: -80px;
-	/* ADDING PADDING TO BOTTOM TAKES LAST PANEL OUT OF FRAME */
 }
 
-/* #pan6{
-	padding-bottom: 50px;
-} */
-
+/* setting size for main images */
 .panel img{
 	flex: 1;
 	width: 70%;
 	align-self: center;
 }
 
+
 .wrapper{
 	margin-top: 120px;
 }
+
+
+/* team tab */
 
 #team{
 	margin-bottom: 250px;
@@ -294,12 +294,16 @@ body{
 	margin:  0 auto;
 }
 
+/* blooper yt vid */
+
 .person iframe{
 	display: block;
 	padding-top: 20px;
 	margin:  0 auto;
 }
 
+
+/* title page button */
 
 #pan0 .subpanel a {
   	padding-bottom: 80px;
@@ -363,7 +367,7 @@ body{
   }
 }
 
-
+/* configuring for sidebar */
 
 body.active .sidebar{ /*if sidebar is active*/
     left: -225px;

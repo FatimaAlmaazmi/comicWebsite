@@ -50,7 +50,7 @@ var ballSound = new Howl({
   src:['sounds/ballSound.mp3']
 });
 
-//bark and ball noise on clicking the ball
+//bark and ball noise on clicking the ball and ball animation on click
 
 $(document).ready(function(){
   $(".pan1-front").click(function(){
@@ -63,6 +63,8 @@ $(document).ready(function(){
   });
 });
 
+
+//food animation and sound on click
 
 $(document).ready(function(){
   $("#beef").click(function(){
@@ -94,30 +96,7 @@ $(document).ready(function(){
   });
 });
 
-
-// $(document).ready(function() {
-//
-//   $("#beef").click(function(){
-//     foodPour.play();
-//     $("#beef").effect( "shake", {times:4, distance:10}, 1000);
-//   });
-// });
-//
-//  $(document).ready(function() {
-//
-//                      $("#chicken").click(function(){
-//                       foodPour.play();
-//                         $("#chicken").effect( "shake", {times:4, distance:10}, 1000);
-//                      });
-//                   });
-//
-//                   $(document).ready(function() {
-//
-//                               $("#fish").click(function(){
-//                                 foodPour.play();
-//                                  $("#fish").effect( "shake", {times:4, distance:10}, 1000);
-//                               });
-//                            });
+// show full food bowl and happy bark on click and make them disappear after a set time
 
 $("#beef").click(function(){
   $("#food").show();
@@ -168,9 +147,9 @@ setTimeout(function() {
 
 
 
+// sound effect on each panel controlled by scroll
+
 var scrollRange = document.body.offsetHeight - window.innerHeight;
-
-
 
 
 function getScrollPercent()
@@ -179,7 +158,6 @@ function getScrollPercent()
   return window.scrollY / scrollRange;
 }
 
-//var playing = false;
 var playing = false;
 var playing2=false;
 var playing3=false;
@@ -188,9 +166,7 @@ window.addEventListener('scroll', function(e){
   console.log(window.scrollY);
   console.log(window.innerHeight);
   console.log(document.body.offsetHeight);
-  //console.log(window.scrollY, getScrollPercent());
   let percent = getScrollPercent();
-  //document.body.style.backgroundColor = 'rgb('+ 225 * percent +', '+ 225 * (1.0 - percent) +', 105)';
   if (playing==false && (percent>=0.285)){
     doorClosing.play();
      var timeoutHandle = setTimeout(function(){
@@ -212,6 +188,9 @@ window.addEventListener('scroll', function(e){
     mailFalling.play();
     playing3 = true;
   }
+
+
+// click to scroll to top
 
   pan6.addEventListener('click', function(){
     $('html,body').scrollTop(0);
