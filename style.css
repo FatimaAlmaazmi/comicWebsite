@@ -392,21 +392,3 @@ body.active #click{
 	top: 68%;
 	left: 34%;
 }
-
-#pan6 {
-	position: relative;
-}
-
-.pan6-back {
-	position: relative;
-}
-
-.scrollup {
-  max-width:  360px;
-  max-height: 360px;
-  z-index: 2;
-  position: absolute;
-  display: none;
-  bottom: calc(55.2%);
-  left: calc(6.7%);
-}
