@@ -175,10 +175,11 @@ body{
 .pan3-front {
 	position: absolute;
 	z-index: 2;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 15%;
+	max-height: 22%;
 	transition: transform 0.9s ease;
 }
+
 #playful-Bark {
 	position: absolute;
 	z-index: 2;
@@ -386,6 +387,7 @@ body.active .pan3-front{
 	top: 50px;
 	left : -70px;
 }
+
 body.active #click{
 	top: 68%;
 	left: 34%;
