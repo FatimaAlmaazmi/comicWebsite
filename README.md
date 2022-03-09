@@ -5,7 +5,7 @@ Our project is a website about a shiba called Bark, and the readers get to spend
 
 ### Process
 
-It all started when we were brainstorming in Baraha, and we were first set on a very deep and complicated comic, however, we felt that that did not fit our vibe. So, we started brainstorming simple ideas for our comics, and thats when we landed on a story about a dog. And, we already had a sketch of a dog, and that further pushed us to work on the idea.
+It all started when we were brainstorming in Baraha, and we were first set on a very deep and complicated comic, however, we felt that that did not fit our vibe. So, we started brainstorming simple ideas for our comics, and thats when we landed on a story about a dog. And, we already had a sketch of a dog, and that further pushed us to work on the idea. In some places, like the ball, we used a combination of Photoshop and Illustrator. We looked online for pictures of elements that we would use in our sketches for our panels. Then, after we prepared our sketches, we composed the finals panels using Photoshop with multiple images on top of each other and converted image files to jpg to make the website run faster.
 
 ![](https://github.com/FatimaAlmaazmi/ComLab-Spring2022-Assignment2/blob/main/images/dog1.png)
 
