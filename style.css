@@ -306,7 +306,7 @@ body{
 #pan0 .subpanel a span{
   position: absolute;
   top: 80%;
-  left: 55%;
+  left: 53%;
   width: 2.5%;
   height: 7%;
   border: 2px solid black;
@@ -317,7 +317,7 @@ body{
 #pan0 .subpanel a span::before {
   position: absolute;
   top: 40%;
-  left: 55%;
+  left: 53%;
   content: '';
   width: 12%;
   height: 10%;
