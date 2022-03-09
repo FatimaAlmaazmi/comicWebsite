@@ -64,91 +64,107 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  $("#beef").click(function(){
+    foodPour.play();
+    $("#beef").animate({left: "+=2%"}, "fast");
+    });
+  $("#beef").click(function(){
+    $("#beef").animate({left: "-=2%"}, "fast");
+  });
+});
+
+$(document).ready(function(){
+  $("#chicken").click(function(){
+    foodPour.play();
+    $("#chicken").animate({left: "+=2%"}, "fast");
+    });
+  $("#chicken").click(function(){
+    $("#chicken").animate({left: "-=2%"}, "fast");
+  });
+});
+
+$(document).ready(function(){
+  $("#fish").click(function(){
+    foodPour.play();
+    $("#fish").animate({left: "+=2%"}, "fast");
+    });
+  $("#fish").click(function(){
+    $("#fish").animate({left: "-=2%"}, "fast");
+  });
+});
 
 
+// $(document).ready(function() {
+//
+//   $("#beef").click(function(){
+//     foodPour.play();
+//     $("#beef").effect( "shake", {times:4, distance:10}, 1000);
+//   });
+// });
+//
+//  $(document).ready(function() {
+//
+//                      $("#chicken").click(function(){
+//                       foodPour.play();
+//                         $("#chicken").effect( "shake", {times:4, distance:10}, 1000);
+//                      });
+//                   });
+//
+//                   $(document).ready(function() {
+//
+//                               $("#fish").click(function(){
+//                                 foodPour.play();
+//                                  $("#fish").effect( "shake", {times:4, distance:10}, 1000);
+//                               });
+//                            });
+
+$("#beef").click(function(){
+  $("#food").show();
+  setTimeout(function () {
+      $('#food').hide();
+  }, 3000);
+});
+
+$("#fish").click(function(){
+  $("#food").show();
+  setTimeout(function () {
+    $('#food').hide();
+  }, 3000);
+});
+
+$("#chicken").click(function(){
+  $("#food").show();
+  setTimeout(function () {
+    $('#food').hide();
+  }, 3000);
+});
+
+$("#beef").click(function(){
+  $("#playful-Bark").show();
+  setTimeout(function () {
+    $('#playful-Bark').hide();
+  }, 3000);
+});
+
+$("#fish").click(function(){
+  $("#playful-Bark").show();
+  setTimeout(function () {
+    $('#playful-Bark').hide();
+  }, 3000);
+});
+
+$("#chicken").click(function(){
+  $("#playful-Bark").show();
+  setTimeout(function () {
+    $('#playful-Bark').hide();
+  }, 3000);
+});
 
 
-
-
-
-
-
-
-
-
-$(document).ready(function() {
-
-            $("#beef").click(function(){
-              foodPour.play();
-               $("#beef").effect( "shake", {times:4, distance:10}, 1000);
-            });
-         });
-
-         $(document).ready(function() {
-
-                     $("#chicken").click(function(){
-                      foodPour.play();
-                        $("#chicken").effect( "shake", {times:4, distance:10}, 1000);
-                     });
-                  });
-
-                  $(document).ready(function() {
-
-                              $("#fish").click(function(){
-                                foodPour.play();
-                                 $("#fish").effect( "shake", {times:4, distance:10}, 1000);
-                              });
-                           });
-
-                           $("#beef").click(function(){
-                             $("#food").show();
-                            setTimeout(function () {
-                           $('#food').hide();
-                       }, 3000);
-                           });
-
-                           $("#fish").click(function(){
-                             $("#food").show();
-                             setTimeout(function () {
-                            $('#food').hide();
-                        }, 3000);
-                           });
-
-                           $("#chicken").click(function(){
-                             $("#food").show();
-                             setTimeout(function () {
-                            $('#food').hide();
-                        }, 3000);
-                           });
-
-                           $("#beef").click(function(){
-                             $("#playful-Bark").show();
-                             setTimeout(function () {
-                            $('#playful-Bark').hide();
-                        }, 3000);
-                           });
-
-                           $("#fish").click(function(){
-                             $("#playful-Bark").show();
-                             setTimeout(function () {
-                            $('#playful-Bark').hide();
-                        }, 3000);
-                           });
-
-                           $("#chicken").click(function(){
-                             $("#playful-Bark").show();
-                             setTimeout(function () {
-                            $('#playful-Bark').hide();
-                        }, 3000);
-                           });
-
-
-                           setTimeout(function() {
-                               $('#food').fadeOut('fast');
-                           }, 500);
-
-
-
+setTimeout(function() {
+  $('#food').fadeOut('fast');
+}, 500);
 
 
 
